@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+body{
+  margin: 0;
+}
+header{
+  background: black;
+  color: white;
+  padding:8px 0px 6px 40px;
+  height: 45px;
+}
+
+header h1{
+  display:inline;
+  font-family: 'oswald', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  float: left;
+  margin-top: 0px;
+  margin-right: 10px;
+}
+
+nav ul {
+  display: inline;
+  padding: 1.9px;
+  float: right;
+}
+
+nav ul li{
+  display:inline-block;
+  list-style-type: none;
+  color: white;
+  float: left;
+  margin-left: 12px; 
+}
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+#nav{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.divider{
+  background-color: red;
+  height: 5px;
+}
+.homeblack:hover {
+  background-color: green;
+  padding: 30px 10px 16px 10px;
+}
+
+.fwimage1{
+  background-image: url(https://i.ytimg.com/vi/PMNnXQWqooI/maxresdefault.jpg);
+  height: 100vh;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  background-repeat: no-repeat;
+  margin:0;
+  padding: 0;
+}
+
+.homesub{
+  font-family: 'oswald', sans-serif;
+  margin: 0%;
+  padding:9% 5% 0% 31%;
+  font-size: 30px;
+  color: orange;
+}
+
+.homedes{
+  font-family:'oswald', sans-serif;
+  margin:0.5% 0% 0% 25%;
+  font-size: 75px;
+  color:blue;
+  display: inline-block; 
+}
